@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ex.udit.calendar_diary">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/untitled"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/untitled_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.MainActivity1" />
+        <activity android:name=".activities.more"></activity>
+    </application>
+
+</manifest>
